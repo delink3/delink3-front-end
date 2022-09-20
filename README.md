@@ -17,8 +17,8 @@
 - Latest stable Node.js
 
 ### To Run
-- Clone repository
-- Enter repository folder ```cd de-link```
+- Clone repository ```git clone https://github.com/delink3/delink3-front-end.git```
+- Enter repository folder ```cd delink3-front-end```
 - Install dependencies ```npm install```
 - Build dist ```node ./build.js```
 - Start local web-server ```http-server ./dist -p 8080```
