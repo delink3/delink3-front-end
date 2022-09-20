@@ -55,7 +55,7 @@ function makeFrontpage() {
       let operators = `<a href="${content.url}" target="_blank" class="link operator-link operator-main">${cleanupGH(String(content.url))}</a>`
       let additionalOperators = ``
       for (const op of content.additionalURLs) {
-        if (parseStr(op, true)) { additionalOperators += `<a href="${op}" target="_blank" class="link operator-link operator-additional">${cleanupGH(String(op))} <i class="icon-external-link"></i></a>` }
+        if (parseStr(op, true)) { additionalOperators += `<a href="${op}" target="_blank" class="link operator-link operator-additional">${cleanupGH(String(op))}</a>` }
       }
       if (additionalOperators.length > 0) { operators += `<div data="+${content.additionalURLs.length} links" class="more-links unclicked">${additionalOperators}</div>` }
       tbody += `
