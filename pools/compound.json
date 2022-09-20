@@ -1,11 +1,11 @@
 {
   "projectName": "Compound",
   "projectShortName": "compound",
-  "officialLink": "https://compound.on.fleek.co/",
+  "officialLink": "https://app.compound.finance/",
   "url": "https://compound.on.fleek.co/",
   "repo": "https://github.com/compound-finance/palisade",
   "additionalURLs": [
     "### Enter additional url string ###"
   ],
-  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+  "operatorInfo": "Anyone can host it"
 }

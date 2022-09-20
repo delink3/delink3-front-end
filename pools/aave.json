@@ -1,11 +1,12 @@
 {
   "projectName": "AAVE",
   "projectShortName": "aave",
-  "officialLink": "https://aave.on.fleek.co/",
+  "officialLink": "https://app.aave.com/",
   "url": "https://aave.on.fleek.co/",
   "repo": "https://github.com/aave/interface",
   "additionalURLs": [
-    "### Enter additional url string ###"
+    "https://ipfs.io/ipns/app.aave.com",
+    "https://staging.aave.com"
   ],
-  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+  "operatorInfo": "The aave-ui is hosted on IPFS in a decentralized manner. app.aave.com just holds a CNAME record to the Cloudflare IPFS gateway. "
 }
