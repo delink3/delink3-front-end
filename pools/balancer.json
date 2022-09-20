@@ -1,0 +1,11 @@
+{
+  "projectName": "Balancer",
+  "projectShortName": "balancer",
+  "officialLink": "https://balancer.on.fleek.co/",
+  "url": "https://balancer.on.fleek.co/",
+  "repo": "https://github.com/balancer-labs/frontend-v2",
+  "additionalURLs": [
+    "### Enter additional url string ###"
+  ],
+  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+}

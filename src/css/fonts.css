@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* fira-code-300 - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/fira-code-v21-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fira-code-v21-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/fira-code-v21-latin-300.woff2") format("woff2"), url("../fonts/fira-code-v21-latin-300.woff") format("woff"), url("../fonts/fira-code-v21-latin-300.ttf") format("truetype"), url("../fonts/fira-code-v21-latin-300.svg#FiraCode") format("svg");
+  /* Legacy iOS */
+}
+
+/* fira-code-regular - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fira-code-v21-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fira-code-v21-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fira-code-v21-latin-regular.woff2") format("woff2"), url("../fonts/fira-code-v21-latin-regular.woff") format("woff"), url("../fonts/fira-code-v21-latin-regular.ttf") format("truetype"), url("../fonts/fira-code-v21-latin-regular.svg#FiraCode") format("svg");
+  /* Legacy iOS */
+}
+
+/* fira-code-700 - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fira-code-v21-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fira-code-v21-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/fira-code-v21-latin-700.woff2") format("woff2"), url("../fonts/fira-code-v21-latin-700.woff") format("woff"), url("../fonts/fira-code-v21-latin-700.ttf") format("truetype"), url("../fonts/fira-code-v21-latin-700.svg#FiraCode") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?lx6p4s");
+  src: url("../fonts/icomoon.eot?lx6p4s#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?lx6p4s") format("truetype"), url("../fonts/icomoon.woff?lx6p4s") format("woff"), url("../fonts/icomoon.svg?lx6p4s#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sun:before {
+  content: "";
+}
+
+.icon-moon:before {
+  content: "";
+}
+
+.icon-github:before {
+  content: "";
+}
+
+.icon-twitter:before {
+  content: "";
+  color: #1da1f2;
+}
+
+.icon-discord:before {
+  content: "";
+  color: #7289da;
+}
+
+.icon-server:before {
+  content: "";
+}
+
+.icon-alert-triangle:before {
+  content: "";
+}
+
+.icon-info:before {
+  content: "";
+}
+
+.icon-external-link:before {
+  content: "";
+}
+
+.icon-link:before {
+  content: "";
+}
+
+.icon-git-merge:before {
+  content: "";
+}
+/*# sourceMappingURL=fonts.css.map */

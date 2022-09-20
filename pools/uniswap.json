@@ -1,0 +1,11 @@
+{
+  "projectName": "Uniswap",
+  "projectShortName": "uniswap",
+  "officialLink": "https://uniswap-int.on.fleek.co/",
+  "url": "https://uniswap-int.on.fleek.co/",
+  "repo": "https://github.com/Uniswap/interface",
+  "additionalURLs": [
+    "### Enter additional url string ###"
+  ],
+  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+}

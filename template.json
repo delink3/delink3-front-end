@@ -1,0 +1,10 @@
+{
+  "projectName": "### Enter name string ###",
+  "projectShortName": "### Enter short name string without spaces ###",
+  "url": "### Enter project official url string ###",
+  "repo": "### Enter original repo url string ###",
+  "additionalURLs": [
+    "### Enter additional url string ###"
+  ],
+  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+}

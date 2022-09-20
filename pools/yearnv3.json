@@ -1,0 +1,11 @@
+{
+  "projectName": "Yearn V3",
+  "projectShortName": "yearnv3",
+  "officialLink": "https://yearn-v3.on.fleek.co/",
+  "url": "https://yearn-v3.on.fleek.co/",
+  "repo": "https://github.com/yearn/yearn-finance-v3",
+  "additionalURLs": [
+    "### Enter additional url string ###"
+  ],
+  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+}

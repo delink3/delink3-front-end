@@ -1,0 +1,143 @@
+$font-path: "../fonts" !default;
+
+/* fira-code-300 - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300;
+  src: url('#{$font-path}/fira-code-v21-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('#{$font-path}/fira-code-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$font-path}/fira-code-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('#{$font-path}/fira-code-v21-latin-300.svg#FiraCode') format('svg'); /* Legacy iOS */
+}
+
+/* fira-code-regular - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$font-path}/fira-code-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('#{$font-path}/fira-code-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$font-path}/fira-code-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('#{$font-path}/fira-code-v21-latin-regular.svg#FiraCode') format('svg'); /* Legacy iOS */
+}
+
+/* fira-code-700 - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$font-path}/fira-code-v21-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('#{$font-path}/fira-code-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$font-path}/fira-code-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('#{$font-path}/fira-code-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('#{$font-path}/fira-code-v21-latin-700.svg#FiraCode') format('svg'); /* Legacy iOS */
+}
+
+$icomoon-font-family: "icomoon" !default;
+
+$icon-sun: "\e909";
+$icon-moon: "\e908";
+$icon-github: "\e900";
+$icon-twitter: "\e901";
+$icon-discord: "\e902";
+$icon-server: "\e90a";
+$icon-alert-triangle: "\e903";
+$icon-info: "\e904";
+$icon-external-link: "\e905";
+$icon-link: "\e906";
+$icon-git-merge: "\e907";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$font-path}/#{$icomoon-font-family}.eot?lx6p4s');
+  src:  url('#{$font-path}/#{$icomoon-font-family}.eot?lx6p4s#iefix') format('embedded-opentype'),
+    url('#{$font-path}/#{$icomoon-font-family}.ttf?lx6p4s') format('truetype'),
+    url('#{$font-path}/#{$icomoon-font-family}.woff?lx6p4s') format('woff'),
+    url('#{$font-path}/#{$icomoon-font-family}.svg?lx6p4s##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sun {
+  &:before {
+    content: $icon-sun; 
+  }
+}
+.icon-moon {
+  &:before {
+    content: $icon-moon; 
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;     
+    color: #1da1f2;
+  }
+}
+.icon-discord {
+  &:before {
+    content: $icon-discord;     
+    color: #7289da;
+  }
+}
+.icon-server {
+  &:before {
+    content: $icon-server; 
+  }
+}
+.icon-alert-triangle {
+  &:before {
+    content: $icon-alert-triangle; 
+  }
+}
+.icon-info {
+  &:before {
+    content: $icon-info; 
+  }
+}
+.icon-external-link {
+  &:before {
+    content: $icon-external-link; 
+  }
+}
+.icon-link {
+  &:before {
+    content: $icon-link; 
+  }
+}
+.icon-git-merge {
+  &:before {
+    content: $icon-git-merge; 
+  }
+}
+

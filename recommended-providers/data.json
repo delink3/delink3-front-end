@@ -1,0 +1,17 @@
+{
+  "IPFS": {
+    "url": "https://ipfs.tech/",
+    "logo": "/src/img/ipfs-logo.svg",
+    "details": "IPFS powers the Distributed Web"
+  },
+  "Pocket Network": {
+    "url": "https://www.pokt.network/",
+    "logo": "/src/img/pocket-logo.svg",
+    "details": "Web3 Infrastructure The Right Way. Decentralized"
+  },
+  "Radicle": {
+    "url": "https://radicle.xyz/",
+    "logo": "/src/img/radicle-logo.svg",
+    "details": "Sovereign code infrastructure"
+  }
+}

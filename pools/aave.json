@@ -1,0 +1,11 @@
+{
+  "projectName": "AAVE",
+  "projectShortName": "aave",
+  "officialLink": "https://aave.on.fleek.co/",
+  "url": "https://aave.on.fleek.co/",
+  "repo": "https://github.com/aave/interface",
+  "additionalURLs": [
+    "### Enter additional url string ###"
+  ],
+  "operatorInfo": "### Enter description or information string. Lines are escaped with '\n' ###"
+}

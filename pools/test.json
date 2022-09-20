@@ -1,0 +1,14 @@
+{
+  "projectName": "F18-LP",
+  "projectShortName": "test",
+  "officialLink": "https://example.com",
+  "url": "https://example.com",
+  "repo": "https://github.com/project/repo-link",
+  "additionalURLs": [
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com"
+  ],
+  "operatorInfo": "Imaginary operator supplying fairy-dust to the network"
+}
