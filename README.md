@@ -1,9 +1,9 @@
-# Liquidity Pool Directory of Providers
+# DeLink
 
 ## About this project
-### Manifest
+### a Directory of Decentralized frontends for DeFI projects.
 
-## Adding a provider to the directory
+## Adding a new project to the directory
 - Fork this repository
 - Copy the template file `template.json`
 - Paste and rename file in `/pools/` folder to match pool unique short name without spaces, alphanumeric, all common.
